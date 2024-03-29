@@ -8,7 +8,7 @@
 
 | Avatar                | Name                 | Student ID| Role       |
 |-----------------------|----------------------|-----------|-----------|
-||Nguyen Nhat Thuong |20522000|LEADER|
+||Nguyen Nhat Thuong |20522000|Leader|
 ||Le Van Sy |20521854|Member|
 
 

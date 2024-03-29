@@ -1,0 +1,8 @@
+.image-wrapper {
+  width: 100%;
+  /* Adjust this value according to your layout */
+  max-width: 100%;
+  /* Ensure the image doesn't exceed its container */
+  height: auto;
+  /* Maintain aspect ratio */
+}

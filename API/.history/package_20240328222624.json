@@ -1,0 +1,21 @@
+{
+  "name": "smarttrash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/SyLe-Van/Smart-Trash-Api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.3",
+    "mongoose-slug-generator": "^1.0.4"
+  }
+}

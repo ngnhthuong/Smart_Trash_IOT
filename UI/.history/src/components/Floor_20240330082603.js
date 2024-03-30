@@ -3,9 +3,9 @@
 
 import "./FloorStyle.css";
 
-export default function Floor({ floor, trashLevel, color, className }) {
+export default function Floor({ floor, trashLevel, color }) {
   return (
-    <div className={className} style={{ backgroundColor: color }}>
+    <div className="container" style={{ backgroundColor: color }}>
       <div className="text">Floor {floor}</div>
       <div>
         <img src={trashLevel} className="image" />

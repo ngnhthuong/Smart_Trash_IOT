@@ -1,0 +1,55 @@
+@keyframes pulse {
+  0% {
+    border-color: #e40f04;
+    box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+  }
+
+  50% {
+    border-color: #ec4026;
+    box-shadow: 0 0 0 0.7rem rgba(255, 30, 0, 0);
+  }
+
+  100% {
+    border-color: #f6715a;
+    box-shadow: 0 0 0 0 rgba(255, 30, 0, 0);  
+  }
+}
+.box-animation {
+  border: none;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url(../public/background_webnew.png);
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.info {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  height: 600px;
+  width: 400px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  justify-content: space-between;
+}
+.logout-image {
+  bottom: 20px;
+  right: 20px;
+  height: 70px;
+  width: 70px;
+  margin-left: 1330px;
+  margin-top: 30px;
+}
+.Container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}

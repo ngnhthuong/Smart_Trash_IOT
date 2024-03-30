@@ -1,0 +1,9 @@
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url(../public/background_webnew.png);
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+}

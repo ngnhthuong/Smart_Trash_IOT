@@ -1,4 +1,4 @@
-
+#include <Servo.h>
 #define trigPin 2
 #define echoPin 3
 #define CLOSE_TRASH 110 // Góc đóng của servo
@@ -28,7 +28,7 @@ void loop()
   duration = pulseIn(echoPin, HIGH);
   distance = duration / 58.0; // Chia cho 58 để tính đơn vị là cm
 
-  if (distance > 0 && distance <= 15)
+  if (distance >= 0 && distance <= 15)
   {
     if (!autoTrigger)
     {
